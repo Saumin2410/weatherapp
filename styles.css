@@ -1,0 +1,114 @@
+body{
+    background-color: hsl(0, 0%, 13%);
+    background-image: radial-gradient(circle farthest-side at center, hsl(270, 100%, 14%) 10%, hsl(0, 0%, 13%) 100%);;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    position: relative; 
+    overflow: hidden;
+}
+
+.card{
+position: relative; 
+z-index: 1;
+border-radius: 10px;
+background: linear-gradient(135deg, #085078, #85d8ce);
+color: white;
+margin:30px auto 0;
+width: 90%;
+max-width: 300px;
+padding: 40px 35px;
+text-align: center;
+}
+
+#searchcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+#searchvalue{
+    height: 37px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border: none;
+    flex: 1; 
+}
+
+#searchbutton{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+
+#searchbutton img {
+    padding: 11px 9px;
+    height: 15px; 
+    width: 13px; 
+}
+
+#weatherimage{
+    height: 130px;
+    width: 130px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#temperature{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#range{
+    font-size: 20px;
+}
+
+#city{
+    font-size: 40px;
+    font-weight: 600; 
+}
+
+#specifics{
+    display: flex;
+    justify-content: space-between;
+}
+
+#windspeed{
+    text-align: right;
+    font-size: 30px;
+}
+
+#unit{
+    font-size: 20px; 
+}
+
+#humidity{
+    text-align: left;
+    font-size: 30px;
+
+}
+
+#humidity img{
+    height: 30px;
+    width: 30px;
+}
+
+#windspeed img{
+    height: 30px;
+    width: 30px;
+}
+
+#property{
+    display: flex;
+    justify-content: space-between;
+}
