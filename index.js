@@ -1,4 +1,4 @@
-/*his is my first git file*/
+/*this is my first git file*/
 const apikey="2bcd19270390fa91b9a6ad2d9f738fd1";
 const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 async function checkweather(){
