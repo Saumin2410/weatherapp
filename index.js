@@ -1,4 +1,12 @@
 /*this is my first git file*/
+// hi this is saumin
+document.getElementById("searchvalue").addEventListener("keypress", handleKeyPress);
+function handleKeyPress(e) {
+    if (e.key === "Enter") {
+        checkweather();
+        return;
+    }
+} 
 const apikey="2bcd19270390fa91b9a6ad2d9f738fd1";
 const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 async function checkweather(){
